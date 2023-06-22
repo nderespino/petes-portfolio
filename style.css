@@ -34,7 +34,7 @@ h3 {
 hr { width: 600px;}
 
 article {
-  padding: 50px 0;
+  padding: 20px 0;
   width: 100%;
 }
 
@@ -45,15 +45,15 @@ article div {
 
 p {
   line-height: 1.5;
-  text-align: center;
   width: 600px;
   margin: auto;
+  padding: 5px;
   
 }
 ul {
   margin: auto;
   width: 500px;
-  padding: 50px;
+  padding: 5px;
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -69,8 +69,8 @@ img {
 }
 ol {
   margin: auto;
-  width: 600px;
-  padding: 50px;
+  width: 500px;
+  padding: 5px;
 }
 
 hr {
