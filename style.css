@@ -1,7 +1,7 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-a:any-link { 
+a:link { 
   color: #d62828; 
 }
 a:hover { 
@@ -31,10 +31,11 @@ h3 {
   text-align: center;
 }
 
-
+hr { width: 600px;}
 
 article {
   padding: 50px 0;
+  width: 100%;
 }
 
 article div {
@@ -44,6 +45,15 @@ article div {
 
 p {
   line-height: 1.5;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  
+}
+ul {
+  margin: auto;
+  width: 500px;
+  padding: 50px;
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -56,6 +66,11 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+}
+ol {
+  margin: auto;
+  width: 600px;
+  padding: 50px;
 }
 
 hr {
@@ -71,3 +86,4 @@ footer div{
   border: 2px solid #003049 ;
   border-radius: 50%;
 }
+
